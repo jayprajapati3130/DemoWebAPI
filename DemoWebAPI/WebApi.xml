@@ -28,6 +28,20 @@
             <param name="employeeCreate"></param>
             <returns></returns>
         </member>
+        <member name="M:DemoWebAPI.Controllers.EmployeeController.UpdateEmployee(Model.RequestModel.EmployeeUpdate)">
+            <summary>
+            Update employee Details
+            </summary>
+            <param name="employeeUpdate"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DemoWebAPI.Controllers.EmployeeController.DeleteEmployee(System.Int32)">
+            <summary>
+            Remove Employee 
+            </summary>
+            <param name="Eid"></param>
+            <returns></returns>
+        </member>
         <member name="M:DemoWebAPI.Controllers.StudentController.Post(Model.StudentDTO)">
             <summary>
             create a new student

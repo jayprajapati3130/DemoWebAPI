@@ -1,3 +1,4 @@
+using DemoWebAPI.CustomMiddlewares;
 using Microsoft.EntityFrameworkCore;
 using Model.DBModel;
 
@@ -31,6 +32,7 @@ if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
+    app.UseMiddleware<ExceptionHandlingMiddleware>();
 }
 
 app.UseHttpsRedirection();
