@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DemoWebAPI</name>
+    </assembly>
+    <members>
+        <member name="T:DemoWebAPI.Controllers.EmployeeController">
+            <summary>
+            employees Controller
+            </summary>
+        </member>
+        <member name="M:DemoWebAPI.Controllers.EmployeeController.#ctor(Model.DBModel.DemoApiContext)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="M:DemoWebAPI.Controllers.EmployeeController.GetAllEmployee">
+            <summary>
+            Get All Employees 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:DemoWebAPI.Controllers.EmployeeController.CreateEmployee(Model.RequestModel.EmployeeCreate)">
+            <summary>
+            Create New Student
+            </summary>
+            <param name="employeeCreate"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DemoWebAPI.Controllers.StudentController.Post(Model.StudentDTO)">
+            <summary>
+            create a new student
+            </summary>
+            <param name="studentDTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DemoWebAPI.Controllers.StudentController.GetStudent(System.Int32)">
+            <summary>
+            Get details about Student
+            </summary>
+            <param name="studentId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DemoWebAPI.Controllers.StudentController.UpdateStudent(System.Int32,Model.StudentDTO)">
+            <summary>
+            for Uodate Student Details
+            </summary>
+            <param name="studentId"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

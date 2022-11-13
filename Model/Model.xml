@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Model</name>
+    </assembly>
+    <members>
+        <member name="P:Model.StudentDTO.StudentName">
+            <summary>
+            Contain details about Students
+            </summary>
+        </member>
+    </members>
+</doc>
