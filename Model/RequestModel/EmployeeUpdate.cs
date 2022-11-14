@@ -8,7 +8,7 @@ namespace Model.RequestModel
 {
     public class EmployeeUpdate
     {
-        public int EmployeeId { get; set; }
+        //public int EmployeeId { get; set; }
         public string E_Name { get; set; } = null!;
 
         public int? E_Salary { get; set; }

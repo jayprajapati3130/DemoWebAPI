@@ -21,25 +21,33 @@
             </summary>
             <returns></returns>
         </member>
+        <member name="M:DemoWebAPI.Controllers.EmployeeController.GetEmployee(System.Int32)">
+            <summary>
+            Display Perticular Employee
+            </summary>
+            <param name="eId">Enter Id For Find Record</param>
+            <returns></returns>
+        </member>
         <member name="M:DemoWebAPI.Controllers.EmployeeController.CreateEmployee(Model.RequestModel.EmployeeCreate)">
             <summary>
             Create New Student
             </summary>
-            <param name="employeeCreate"></param>
+            <param name="employeeCreate">Enter Details</param>
             <returns></returns>
         </member>
-        <member name="M:DemoWebAPI.Controllers.EmployeeController.UpdateEmployee(Model.RequestModel.EmployeeUpdate)">
-            <summary>
-            Update employee Details
-            </summary>
-            <param name="employeeUpdate"></param>
-            <returns></returns>
+        <member name="M:DemoWebAPI.Controllers.EmployeeController.UpdateEmployee(System.Int32,Model.RequestModel.EmployeeUpdate)">
+             <summary>
+             Update employee Details
+             </summary>
+            <param name="E_Id">Enter Id which You Want to Update</param>
+             <param name="employeeUpdate">Enter Your New Record</param>
+             <returns></returns>
         </member>
         <member name="M:DemoWebAPI.Controllers.EmployeeController.DeleteEmployee(System.Int32)">
             <summary>
             Remove Employee 
             </summary>
-            <param name="Eid"></param>
+            <param name="eId">Enter Id Which You Want to Delete</param>
             <returns></returns>
         </member>
         <member name="M:DemoWebAPI.Controllers.StudentController.Post(Model.StudentDTO)">
@@ -62,6 +70,22 @@
             </summary>
             <param name="studentId"></param>
             <returns></returns>
+        </member>
+        <member name="T:DemoWebAPI.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:DemoWebAPI.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:DemoWebAPI.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
         </member>
     </members>
 </doc>
